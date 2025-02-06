@@ -1,16 +1,16 @@
     let app = document.getElementById("app");
 
-    // Создание контейнера
+
     let container = document.createElement("div");
     container.className = "container";
     app.appendChild(container);
 
-    // Заголовок
+
     let title = document.createElement("h1");
     title.textContent = "Добавление, изменение и удаление элемента из таблицы";
     container.appendChild(title);
 
-    // Форма ввода
+
     let formGroup = document.createElement("div");
     formGroup.className = "form-group";
 
@@ -29,7 +29,6 @@
 
     container.appendChild(formGroup);
 
-    // Создание таблицы
     let table = document.createElement("table");
     container.appendChild(table);
 
@@ -71,7 +70,6 @@
         inputAge.value = "";
     });
 
-    // Функция обновления таблицы
     function updateTable() {
         tbody.innerHTML = "";
 
