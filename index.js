@@ -1,4 +1,3 @@
-document.addEventListener("DOMContentLoaded", function () {
     let app = document.getElementById("app");
 
     // Создание контейнера
@@ -121,5 +120,5 @@ document.addEventListener("DOMContentLoaded", function () {
             row.appendChild(cellActions);
             tbody.appendChild(row);
         });
-    }
-});
+    };
+
