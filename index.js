@@ -51,8 +51,7 @@
     let students = [];
     let count = 1;
 
-    // Функция добавления студента
-    addButton.addEventListener("click", function () {
+    addButton.onclick = () => {
         let name = inputName.value.trim();
         let age = inputAge.value.trim();
 
@@ -68,7 +67,7 @@
         updateTable();
         inputName.value = "";
         inputAge.value = "";
-    });
+    };
 
     function updateTable() {
         tbody.innerHTML = "";
