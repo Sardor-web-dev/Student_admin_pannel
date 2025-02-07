@@ -10,7 +10,6 @@
     title.innerHTML = "Добавление, изменение и удаление элемента из таблицы";
     container.append(title);
 
-
     let formGroup = document.createElement("div");
     formGroup.className = "form-group";
 
