@@ -113,6 +113,7 @@
             }
             cellActions.append(deleteBtn);
 
+            
             row.append(cellActions);
             tbody.append(row);
         });
