@@ -12,12 +12,12 @@
     formGroup.className = "form-group";
 
     let inputName = document.createElement("input");
-    inputName.setAttribute('name, name')
+    inputName.setAttribute("name", "username");
     inputName.placeholder = "Имя";
     formGroup.append(inputName);
 
     let inputAge = document.createElement("input");
-    inputAge.setAttribute('name, age')
+    inputAge.setAttribute("name", "age");
     inputAge.placeholder = "Возраст";
     inputAge.type = "number";
     formGroup.append(inputAge);
