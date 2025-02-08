@@ -13,6 +13,7 @@
 
     let inputName = document.createElement("input");
     inputName.setAttribute("name", "username");
+    inputName.type = 'text';
     inputName.placeholder = "Имя";
     formGroup.append(inputName);
 
