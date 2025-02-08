@@ -1,10 +1,8 @@
     let app = document.getElementById("app");
 
-
     let container = document.createElement("div");
     container.className = "container";
     app.append(container);
-
 
     let title = document.createElement("h1");
     title.innerHTML = "Добавление, изменение и удаление элемента из таблицы";
